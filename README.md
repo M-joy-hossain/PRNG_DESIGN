@@ -4,6 +4,7 @@ Custom Pseudorandom Number Generator (PRNG)
 This project implements and analyzes a custom Linear Congruential Generator (LCG) to simulate pseudorandom numbers and compares it with NumPy’s built-in uniform generator.
 
 PRNG Logic
+
 We use the standard LCG formula:
 
 Xₙ₊₁ = (a * Xₙ + c) mod m
@@ -15,7 +16,10 @@ modulus (m) = 2³¹
 multiplier (a) = 1103515245
 increment (c) = 12345
 seed = 42
+
 Visualizations
+
+
 Two types of analysis are done:
 
 Scatter Plot – Visualizes dependency and clustering.
@@ -25,10 +29,13 @@ Install required packages:
 
 pip install numpy matplotlib
 Usage
+
 Run the script:
 
 python prng.py
 Output
+
+
 The script outputs:
 
 Two plots
